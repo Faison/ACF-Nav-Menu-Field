@@ -51,7 +51,7 @@ class ACF_Field_Nav_Menu_V5 extends acf_field {
 				'menu'   => __( 'Nav Menu HTML' ),
 				'id'     => __( 'Nav Menu ID' ),
 			),
-		));
+		) );
 
 		// Register the Menu Container setting
 		acf_render_field_setting( $field, array(
@@ -60,7 +60,7 @@ class ACF_Field_Nav_Menu_V5 extends acf_field {
 			'type'         => 'select',
 			'name'         => 'container',
 			'choices'      => $this->get_allowed_nav_container_tags(),
-		));
+		) );
 
 		// Register the Allow Null setting
 		acf_render_field_setting( $field, array(
@@ -72,7 +72,7 @@ class ACF_Field_Nav_Menu_V5 extends acf_field {
 				1 => __( 'Yes' ),
 				0 => __( 'No' ),
 			),
-		));
+		) );
 	}
 
 	/**
