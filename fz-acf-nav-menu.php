@@ -24,7 +24,7 @@ class ACF_Nav_Menu_Field_Plugin {
 		add_action( 'acf/register_fields', array( $this, 'register_field_v4' ) );	
 
 		// version 5
-		add_action('acf/include_field_types', array( $this, 'register_field_v5' ) );
+		add_action( 'acf/include_field_types', array( $this, 'register_field_v5' ) );
 	}
 
 	/**
