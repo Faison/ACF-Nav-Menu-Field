@@ -1,7 +1,7 @@
 ACF-Nav-Menu-Field
 ==================
 
-Add [Navigation Menus](http://codex.wordpress.org/Navigation_Menus) to [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) (ACF) with the Nav Menu Field plugin! This plugin adds the Nav Menu Field type to ACF (version 4), allowing you to select from the menus you create in the WordPress Admin backend to use on your website's frontend.
+Add [Navigation Menus](http://codex.wordpress.org/Navigation_Menus) to [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) (ACF) with the Nav Menu Field plugin! This plugin adds the Nav Menu Field type to ACF (versions 5 & 4), allowing you to select from the menus you create in the WordPress Admin backend to use on your website's frontend.
 
 Using ACF, you can set the Nav Menu Field to return the selected menu's:
 
