@@ -56,7 +56,7 @@ class ACF_Field_Nav_Menu_V5 extends acf_field {
 		// Register the Menu Container setting
 		acf_render_field_setting( $field, array(
 			'label'        => __( 'Menu Container' ),
-			'instructions' => __( "What to wrap the Menu's ul with (when returning HTML only)",'acf' ),
+			'instructions' => __( "What to wrap the Menu's ul with (when returning HTML only)" ),
 			'type'         => 'select',
 			'name'         => 'container',
 			'choices'      => $this->get_allowed_nav_container_tags(),
