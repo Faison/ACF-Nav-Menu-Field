@@ -33,6 +33,8 @@ class acf_field_nav_menu_plugin
 		// version 4+
 		add_action('acf/register_fields', array($this, 'register_fields'));	
 
+		// version 5
+		add_action('acf/include_field_types', array( $this, 'register_field_v5' ) );
 	}
 	
 	/*
@@ -47,9 +49,11 @@ class acf_field_nav_menu_plugin
 	{
 		include_once('nav-menu-v4.php');
 	}
+
+	public function register_field_v5() {
+		include_once 'nav-menu-v5.php';
+	}
 	
 }
 
 new acf_field_nav_menu_plugin();
-		
-?>
