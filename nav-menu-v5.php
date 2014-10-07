@@ -27,7 +27,7 @@ class ACF_Field_Nav_Menu_V5 extends acf_field {
 		$this->defaults = array(
 			'save_format' => 'id',
 			'allow_null'  => 0,
-			'container'   => 'div'
+			'container'   => 'div',
 		);
 
 		parent::__construct();
