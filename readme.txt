@@ -1,6 +1,6 @@
 === Advanced Custom Fields: Nav Menu Field ===
 Contributors: Faison
-Tags: Advanced Custom Fields, acf, acf4, custom fields, admin, menu, nav menu, navigation
+Tags: Advanced Custom Fields, acf, acf4, acf5, custom fields, admin, menu, nav menu, navigation
 Author: Faison Zutavern
 Author URI: http://faisonz.com
 Requires at least: 3.4
